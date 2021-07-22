@@ -1,14 +1,14 @@
 td.monthview-primary-with-event.monthview-current {
     color: white;
-    background-color: #3A87AD;
+    background-color: #EA5A5A;
 }
 
-:host ::ng-deep {
-    .event-detail-container {
-        display: none;
-    }
-    
-    .monthview-container {
-        height: auto !important;
-    }
+.monthview-eventdetail-timecolumn {
+    color: var(--ion-color-primary) !important;
 }
+
+span.event-detail {
+    color: #EA5A5A;
+}
+
+
