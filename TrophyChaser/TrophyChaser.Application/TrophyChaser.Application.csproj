@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TrophyChaser.Domain\TrophyChaser.Domain.csproj" />
+    <ProjectReference Include="..\TrophyChaser.Persistance\TrophyChaser.Persistance.csproj" />
+  </ItemGroup>
+
+</Project>

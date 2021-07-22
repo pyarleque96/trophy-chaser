@@ -1,0 +1,78 @@
+.tc-header {
+    
+    ion-toolbar {
+        --background: #2a4d4b;
+        min-height: 64px;
+        display: flex;
+    }
+
+    ion-title {
+        color: #ffffff;
+        font-size: 14px;
+    }
+    
+    ion-button.button {
+        --color: #ffffff;
+        font-size: 16px;
+        position: relative;
+        top: 2px;
+        left: -2px;
+    }
+       
+    ion-menu-button {
+        --color: #fff;
+    }
+
+    &__logo {
+        background-color: #ffb300;
+        color: #ffb300;
+        max-width: 130px;
+        margin-left: 5px;
+        cursor: pointer;
+    }
+
+    &__title {
+        cursor: pointer;
+    }
+}
+
+.tc-header-branded {
+
+    ion-toolbar {
+        --background: #2a4d4b;
+        min-height: 64px;
+        display: flex;
+    }
+
+    ion-title {
+        color: #ffffff;
+        font-size: 14px;
+    }
+    
+    ion-button.button {
+        --color: #ffffff;
+        font-size: 16px;
+        position: relative;
+        top: 2px;
+        left: -2px;
+    }
+       
+    ion-menu-button {
+        --color: #fff;
+    }
+
+    &__logo {
+        background-color: #ffb300;
+        color: #ffb300;
+        max-width: 130px;
+        margin-left: 5px;
+        cursor: pointer;
+    }
+
+    &__title {
+        max-width: 130px;
+        margin-left: 5px;
+        cursor: pointer;
+    }
+
+}

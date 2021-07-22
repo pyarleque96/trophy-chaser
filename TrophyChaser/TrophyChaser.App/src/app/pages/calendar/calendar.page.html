@@ -1,0 +1,18 @@
+<ion-header class="tc-header">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-buttons slot="start">
+        <ion-back-button defaultHref="home" text="" icon="arrow-back" mode="md"></ion-back-button>
+      </ion-buttons>
+      <ion-button>
+        <span class="tc-header__title">Calendar</span>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <full-calendar [options]="calendarOptions"></full-calendar>
+  </ion-card>
+</ion-content>

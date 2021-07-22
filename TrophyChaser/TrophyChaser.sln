@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrophyChaser.API", "TrophyChaser.API\TrophyChaser.API.csproj", "{068FB836-D919-4F7A-AD9F-BB2569DB483D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrophyChaser.Domain", "TrophyChaser.Domain\TrophyChaser.Domain.csproj", "{2EE07312-C947-4E12-88A6-6E62620E7FA2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrophyChaser.Persistance", "TrophyChaser.Persistance\TrophyChaser.Persistance.csproj", "{9C4AD730-76A3-41F2-BF50-E8FC23EE6BBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrophyChaser.Application", "TrophyChaser.Application\TrophyChaser.Application.csproj", "{659168C8-C32E-4FC8-B115-977D0CB572E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{068FB836-D919-4F7A-AD9F-BB2569DB483D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{068FB836-D919-4F7A-AD9F-BB2569DB483D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{068FB836-D919-4F7A-AD9F-BB2569DB483D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{068FB836-D919-4F7A-AD9F-BB2569DB483D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EE07312-C947-4E12-88A6-6E62620E7FA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EE07312-C947-4E12-88A6-6E62620E7FA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EE07312-C947-4E12-88A6-6E62620E7FA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EE07312-C947-4E12-88A6-6E62620E7FA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C4AD730-76A3-41F2-BF50-E8FC23EE6BBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C4AD730-76A3-41F2-BF50-E8FC23EE6BBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C4AD730-76A3-41F2-BF50-E8FC23EE6BBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C4AD730-76A3-41F2-BF50-E8FC23EE6BBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{659168C8-C32E-4FC8-B115-977D0CB572E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{659168C8-C32E-4FC8-B115-977D0CB572E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{659168C8-C32E-4FC8-B115-977D0CB572E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{659168C8-C32E-4FC8-B115-977D0CB572E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C305495A-E9FB-4E9E-A9AE-3FE419DC0E0F}
+	EndGlobalSection
+EndGlobal
