@@ -1,0 +1,36 @@
+:host ::ng-deep {
+
+    .event-detail-container {
+       .item-inner {
+           background-color: red;
+       }
+    }
+
+    .monthview-primary-with-event {
+        background-color: white;
+    }
+
+    .monthview-selected {
+        background-color: var(--ion-color-success) !important;
+    }
+}
+
+
+.indicator-container {
+    padding-left: 0.5rem;
+    padding-bottom: 0.4rem;
+}
+
+.event-indicator {
+    background: var(--ion-color-success);
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    display: table-cell;
+    padding-right: .2rem;
+}
+
+.with-event {
+    background-color: var(--ion-color-primary) !important;
+    border-radius: 15px;
+}
