@@ -6,46 +6,12 @@
         <span class="tc-header-branded__title">Trophy Chaser</span>
       </ion-button>
     </ion-buttons>
-
-    <ion-buttons slot="end">
-      <ion-button (click)="clickedStar()">
-        <ion-icon name="notifications"></ion-icon>
-      </ion-button>
-
-      <ion-menu-button autoHide="false"></ion-menu-button>
-    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 
 
-<ion-content [fullscreen]="true">
+<ion-content>
 
-  <ion-card class="tc-card-welcome">
-    <ion-card-header>
-      <ion-card-title>Hello, Team!</ion-card-title>
-    </ion-card-header>
-  </ion-card>
 
-  <ion-card class="tc-card-functions">
-    <ion-grid>
-      <ion-row>
-        <ion-col>
-          <ion-button href="/calendar" expand="full" class="tc-card-functions__button">
-            <ion-icon size="large" name="calendar"></ion-icon>
-          </ion-button>
-        </ion-col>
-        <ion-col>
-          <ion-button expand="full" class="tc-card-functions__button">
-            <ion-icon size="large" name="list"></ion-icon>
-          </ion-button>
-        </ion-col>
-        <ion-col>
-          <ion-button expand="full" class="tc-card-functions__button">
-            <ion-icon size="large" name="person-circle"></ion-icon>
-          </ion-button>
-        </ion-col>
-      </ion-row>
-    </ion-grid>
-  </ion-card>
 </ion-content>

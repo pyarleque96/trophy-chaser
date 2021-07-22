@@ -3,20 +3,11 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
+import { ComponentsModule } from '../../components/components.module';
 
 import { CalendarPageRoutingModule } from './calendar-routing.module';
 
 import { CalendarPage } from './calendar.page';
-
-import { FullCalendarModule } from '@fullcalendar/angular';
-import dayGridPlugin from '@fullcalendar/daygrid';
-import interactionPlugin from '@fullcalendar/interaction';
-
-
-FullCalendarModule.registerPlugins([
-  dayGridPlugin,
-  interactionPlugin
-]);
 
 @NgModule({
   imports: [
@@ -24,8 +15,10 @@ FullCalendarModule.registerPlugins([
     FormsModule,
     IonicModule,
     CalendarPageRoutingModule,
-    FullCalendarModule
+    ComponentsModule
   ],
-  declarations: [CalendarPage]
+  declarations: [
+    CalendarPage
+  ]
 })
 export class CalendarPageModule {}

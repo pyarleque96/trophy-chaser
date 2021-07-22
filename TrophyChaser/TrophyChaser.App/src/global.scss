@@ -28,19 +28,28 @@
 
 /* Trophy Chaser Theme */
 
-@import "theme/header";
+@import 
+    'theme/base/base',
+    'theme/base/reset';
+
+
+@import 
+    'theme/layout/header';
+
+
+
 
 /* Trophy Chaser Theme */
 
 
+
+
+
+
+
+
 /* Trophy Chaser Resets */
 
-ion-content {
-    --background: #f2f1ed !important;
-}
 
-ion-back-button {
-    --color: #fff;
-}
 
 /* Trophy Chaser Resets */
